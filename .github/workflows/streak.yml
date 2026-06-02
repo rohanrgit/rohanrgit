@@ -1,4 +1,4 @@
-name: Streak card
+name: Profile cards
 
 on:
   schedule:
@@ -9,12 +9,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: streak-card
+  group: profile-cards
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HAS_PAT: ${{ secrets.GH_PAT != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,21 +26,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate streak SVGs
+      - name: Generate streak card
         env:
-          # Falls back to GITHUB_TOKEN; add a GH_PAT secret only if private
-          # contributions don't show up in the generated card.
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python scripts/generate_streak.py
+
+      - name: Generate languages card
+        if: env.HAS_PAT == 'true'   # needs a PAT that can read private repos
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: python scripts/generate_languages.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak-light.svg assets/streak-dark.svg
+          git add assets/streak-light.svg assets/streak-dark.svg assets/langs-light.svg assets/langs-dark.svg
           if git diff --staged --quiet; then
-            echo "No change to the streak card."
+            echo "No card changes."
           else
-            git commit -m "chore: refresh streak card [skip ci]"
+            git commit -m "chore: refresh profile cards [skip ci]"
             git push
           fi
