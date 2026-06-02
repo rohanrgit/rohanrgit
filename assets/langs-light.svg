@@ -3,12 +3,12 @@
   <clipPath id="bar"><rect x="25" y="52" width="430" height="10" rx="5.0"/></clipPath>
   <rect x="25" y="52" width="430" height="10" rx="5.0" fill="#eaeef2"/>
   <g clip-path="url(#bar)">
-    <rect x="25.00" y="52" width="268.89" height="10" fill="#3572A5"/>
-    <rect x="293.89" y="52" width="63.41" height="10" fill="#e34c26"/>
-    <rect x="357.30" y="52" width="46.65" height="10" fill="#3178c6"/>
-    <rect x="403.95" y="52" width="25.15" height="10" fill="#00ADD8"/>
-    <rect x="429.10" y="52" width="8.31" height="10" fill="#89e051"/>
-    <rect x="437.42" y="52" width="8.12" height="10" fill="#012456"/>
+    <rect x="25.00" y="52" width="268.88" height="10" fill="#3572A5"/>
+    <rect x="293.88" y="52" width="63.39" height="10" fill="#e34c26"/>
+    <rect x="357.27" y="52" width="46.64" height="10" fill="#3178c6"/>
+    <rect x="403.91" y="52" width="25.15" height="10" fill="#00ADD8"/>
+    <rect x="429.05" y="52" width="8.35" height="10" fill="#89e051"/>
+    <rect x="437.40" y="52" width="8.14" height="10" fill="#012456"/>
   </g>
   <circle cx="30" cy="88" r="5.5" fill="#3572A5" stroke="#eaeef2" stroke-width="0.5"/>
   <text x="44" y="92" font-size="13" fill="#59636e"><tspan fill="#1f2328" font-weight="600">Python</tspan> 62.5%</text>
