@@ -18,6 +18,15 @@ Most of my work is hands-on backend: typed Python services, real-time market dat
 - 🌱 Always going deeper on market microstructure, execution quality, and applied AI
 - 💬 Open to interesting problems and consulting
 
+### 🔥 GitHub Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rohanrgit&theme=dark&hide_border=true&background=00000000">
+    <img alt="Rohan's GitHub contribution streak" src="https://streak-stats.demolab.com/?user=rohanrgit&hide_border=true&background=00000000">
+  </picture>
+</p>
+
 ### 🔗 Find me
 - 🌐 **Website** — [rohanraigupta.com](https://www.rohanraigupta.com)
 - 💼 **LinkedIn** — [in/rohanraigupta](https://www.linkedin.com/in/rohanraigupta)
