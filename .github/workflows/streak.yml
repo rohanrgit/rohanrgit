@@ -1,4 +1,4 @@
-name: Streak card
+name: Profile cards
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: streak-card
+  group: profile-cards
   cancel-in-progress: false
 
 jobs:
@@ -29,14 +29,19 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_streak.py
 
+      - name: Generate isocalendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_isocalendar.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak-light.svg assets/streak-dark.svg
+          git add assets/streak-light.svg assets/streak-dark.svg assets/isocal-light.svg assets/isocal-dark.svg
           if git diff --staged --quiet; then
-            echo "No change to the streak card."
+            echo "No card changes."
           else
-            git commit -m "chore: refresh streak card [skip ci]"
+            git commit -m "chore: refresh profile cards [skip ci]"
             git push
           fi
