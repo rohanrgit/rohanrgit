@@ -22,8 +22,8 @@ Most of my work is hands-on backend: typed Python services, real-time market dat
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=rohanrgit&theme=dark&hide_border=true&background=00000000">
-    <img alt="Rohan's GitHub contribution streak" src="https://streak-stats.demolab.com/?user=rohanrgit&hide_border=true&background=00000000">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanrgit/rohanrgit/main/assets/streak-dark.svg">
+    <img alt="Rohan's GitHub contribution streak" src="https://raw.githubusercontent.com/rohanrgit/rohanrgit/main/assets/streak-light.svg">
   </picture>
 </p>
 
