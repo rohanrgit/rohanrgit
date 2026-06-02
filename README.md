@@ -55,6 +55,13 @@ Most of my work is hands-on backend: typed Python services, real-time market dat
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanrgit/rohanrgit/output/github-snake-dark.svg">
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/rohanrgit/rohanrgit/output/github-snake.svg">
+  </picture>
+</p>
+
 ### 🔗 Find me
 - 🌐 **Website** — [rohanraigupta.com](https://www.rohanraigupta.com)
 - 💼 **LinkedIn** — [in/rohanraigupta](https://www.linkedin.com/in/rohanraigupta)
