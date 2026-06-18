@@ -35,7 +35,7 @@ Most of my work is hands-on backend: typed Python services, real-time market dat
 
 ### 👨‍💻 About Me
 - 📍 Based in **New Delhi, India**
-- ✍️ I write about investing, software, and the tech × finance overlap at [rohanraigupta.com](https://www.rohanraigupta.com)
+- ✍️ I write about investing, software, and the tech × finance overlap
 - 🌱 Always going deeper on market microstructure, execution quality, and applied AI
 - 💬 Open to interesting problems and consulting
 
