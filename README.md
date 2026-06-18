@@ -50,13 +50,6 @@ Most of my work is hands-on backend: typed Python services, real-time market dat
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanrgit/rohanrgit/main/assets/isocal-dark.svg">
-    <img alt="Rohan's contribution isocalendar" src="https://raw.githubusercontent.com/rohanrgit/rohanrgit/main/assets/isocal-light.svg">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanrgit/rohanrgit/main/assets/langs-dark.svg">
     <img alt="Rohan's most used languages" src="https://raw.githubusercontent.com/rohanrgit/rohanrgit/main/assets/langs-light.svg">
   </picture>
@@ -68,10 +61,3 @@ Most of my work is hands-on backend: typed Python services, real-time market dat
     <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/rohanrgit/rohanrgit/output/github-snake.svg">
   </picture>
 </p>
-
-### 🔗 Find me
-- 🌐 **Website** — [rohanraigupta.com](https://www.rohanraigupta.com)
-- 💼 **LinkedIn** — [in/rohanraigupta](https://www.linkedin.com/in/rohanraigupta)
-- 🐦 **X / Twitter** — [@rohanraigupta](https://twitter.com/rohanraigupta)
-- 📅 **Book a call** — [calendly.com/rohanraigupta](https://calendly.com/rohanraigupta)
-
